@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   margin: 0; /* Removes default margin */
   height: 100vh; /* Sets the height to the viewport height */
+  width: 100vw; /* Sets the width to the viewport width */
 }
 
 #card-front {
@@ -99,22 +100,6 @@ p.signed {
   font-size: 1.5em;
 }
 
-/* #card-front {
-  background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777));
-  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
-  -webkit-transform-origin: left;
-  transform-origin: left;
-  -webkit-transition: -webkit-transform 1s linear;
-  transition: -webkit-transform 1s linear;
-  transition: transform 1s linear;
-  transition: transform 1s linear, -webkit-transform 1s linear;
-  position: relative;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-perspective: 5000px;
-  perspective: 5000px;
-} */
 #card-front {
   background-color: #ADD8E6;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ADD8E6), to(#87CEEB));
